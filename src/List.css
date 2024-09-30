@@ -1,0 +1,63 @@
+/* List.css */
+.product-list {
+  padding: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px; /* Optional: limit width */
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between products */
+}
+
+.product {
+  background-color: #f9f9f9; /* Light background */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center; /* Center-align text */
+  transition: transform 0.2s;
+}
+
+.product:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.product img {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.product h4 {
+  margin: 10px 0;
+}
+
+.product p {
+  margin: 5px 0;
+}
+
+.product button {
+  padding: 10px;
+  background-color: #4caf50; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
