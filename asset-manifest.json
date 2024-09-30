@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/e-commerce/static/css/main.9a4b3fc9.css",
+    "main.js": "/e-commerce/static/js/main.ec649953.js",
+    "static/js/453.5e560239.chunk.js": "/e-commerce/static/js/453.5e560239.chunk.js",
+    "static/media/bag.jpeg": "/e-commerce/static/media/bag.e89ce8a135647bb27d24.jpeg",
+    "index.html": "/e-commerce/index.html",
+    "main.9a4b3fc9.css.map": "/e-commerce/static/css/main.9a4b3fc9.css.map",
+    "main.ec649953.js.map": "/e-commerce/static/js/main.ec649953.js.map",
+    "453.5e560239.chunk.js.map": "/e-commerce/static/js/453.5e560239.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a4b3fc9.css",
+    "static/js/main.ec649953.js"
+  ]
+}
